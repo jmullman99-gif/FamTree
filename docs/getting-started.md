@@ -11,8 +11,8 @@ visualization at the end of the research workflow.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/jmullman99-gif/genealogy-mcp.git
-cd genealogy-mcp
+git clone https://github.com/jmullman99-gif/FamTree.git
+cd FamTree
 ./setup.sh
 ```
 
@@ -28,13 +28,13 @@ Add the server to your MCP client's configuration:
     "genealogy": {
       "type": "stdio",
       "command": "uv",
-      "args": ["run", "--directory", "/path/to/genealogy-mcp", "genealogy-mcp"]
+      "args": ["run", "--directory", "/path/to/FamTree", "genealogy-mcp"]
     }
   }
 }
 ```
 
-Replace `/path/to/genealogy-mcp` with the actual path to the cloned repo.
+Replace `/path/to/FamTree` with the actual path to the cloned repo.
 
 ### 3. Start researching
 

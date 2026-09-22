@@ -20,7 +20,7 @@ async def lifespan(server: FastMCP) -> AsyncIterator[AppContext]:
     async with httpx.AsyncClient(
         follow_redirects=True,
         timeout=30.0,
-        headers={"User-Agent": "genealogy-mcp/0.1.0 (https://github.com/jmullman99-gif/genealogy-mcp)"},
+        headers={"User-Agent": "FamTree/0.1.0 (https://github.com/jmullman99-gif/FamTree)"},
     ) as http:
         yield AppContext(http=http)
 

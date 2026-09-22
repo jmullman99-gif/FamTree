@@ -12,7 +12,7 @@ import httpx
 
 BASE_URL = "https://www.findagrave.com"
 _HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; genealogy-mcp/0.1)",
+    "User-Agent": "Mozilla/5.0 (compatible; FamTree/0.1)",
 }
 
 # ── HTML parsing helpers ──────────────────────────────────────

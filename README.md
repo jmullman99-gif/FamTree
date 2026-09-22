@@ -9,8 +9,8 @@ in parallel.
 ## Quick Start
 
 ```bash
-git clone https://github.com/jmullman99-gif/genealogy-mcp.git
-cd genealogy-mcp
+git clone https://github.com/jmullman99-gif/FamTree.git
+cd FamTree
 ./setup.sh
 ```
 

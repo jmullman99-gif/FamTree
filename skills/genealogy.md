@@ -212,7 +212,7 @@ If the user provided a GEDCOM file in Phase 1, load it now with
 
 Tell the user:
 "The genealogy MCP server isn't available. Run `./setup.sh` from
-the genealogy-mcp directory, or see `docs/getting-started.md` for
+the FamTree directory, or see `docs/getting-started.md` for
 manual setup."
 
 ### When the server is ready:
