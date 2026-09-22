@@ -319,14 +319,49 @@ Help the user produce clean final documents, **saved to the wiki:**
 - **Research log** is already maintained in `wiki/log.md`
 - **Open questions** → listed at the bottom of the family synthesis
   page and on individual entity pages
-- Suggest using Open Design to create a family tree diagram if the
-  user wants a visual representation
 - Update `wiki/index.md` with all new pages
 
 At the end of a session, summarize what was added to the wiki:
 "This session I created/updated X entity pages, Y source pages, and
 the family history synthesis. Your wiki now tracks Z people across
 N generations. Open questions are listed on each person's page."
+
+### Step 6: Visualization (optional)
+
+After the research is synthesized, ask the user:
+
+"Would you like me to create a family tree diagram? I can render an
+interactive tree using Open Design — it'll show names, birth/death
+years, and relationships laid out visually. Good for printing or
+sharing with family."
+
+If they say yes, use [Open Design](https://opendesign.dev) to create
+the diagram. Open Design is a local design workspace that renders
+HTML/JSX/CSS — it's the visualization layer for this pipeline.
+
+**Building the tree:**
+
+- Pull the people and relationships from the wiki entity pages (or
+  from GEDCOM data if loaded)
+- Create a top-down tree layout with:
+  - Full name under each node
+  - Birth–death years (or "b. YYYY" / "d. YYYY" if only one is known)
+  - Marriage connections shown as horizontal links
+  - Parent–child connections shown as vertical links
+  - Color coding or visual distinction for verified vs. unverified people
+- Style for readability at print scale (letter or A4)
+- Include a title with the family name and date range covered
+
+**Prompt pattern for the diagram:**
+
+> "Create a family tree diagram for the [family name] family. The tree
+> covers [N] generations from [earliest ancestor] to [most recent].
+> Use a top-down layout. Each person node shows full name and
+> birth–death years. Marriages are horizontal links; parent–child
+> relationships are vertical. Use a clean, printable style."
+
+Open Design is a dependency for this step — if it's not available,
+note that the visualization step requires it and move on.
 
 ---
 

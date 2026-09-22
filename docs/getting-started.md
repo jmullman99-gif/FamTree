@@ -5,6 +5,9 @@
 **Prerequisites:** An MCP-compatible AI client, Python 3.10+,
 and [uv](https://astral.sh/uv/install.sh).
 
+**Optional:** [Open Design](https://opendesign.dev) for family tree
+visualization at the end of the research workflow.
+
 ### 1. Clone and install
 
 ```bash
@@ -37,7 +40,7 @@ Replace `/path/to/genealogy-mcp` with the actual path to the cloned repo.
 
 Connect to the MCP server through your client and start using the tools.
 
-### 3. Try the example first (optional)
+### 4. Try the example first (optional)
 
 Before researching your own family, try loading the example GEDCOM:
 

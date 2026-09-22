@@ -16,7 +16,10 @@ cd genealogy-mcp
 
 Then connect the server to your MCP client and start researching.
 
-**Requirements:** Python 3.10+ and [uv](https://astral.sh/uv). That's it.
+**Requirements:** Python 3.10+ and [uv](https://astral.sh/uv).
+
+**Optional:** [Open Design](https://opendesign.dev) for family tree
+visualization.
 
 > **New to genealogy?** Try the [synthetic example](examples/synthetic-family/)
 > first — load `marchetti.ged` and follow the research log to see the
@@ -57,6 +60,8 @@ the full workflow with a fictional Italian-American family.
 4. **Adversarial Review** — a separate agent challenges every claim
 5. **Output** — documented family history with citations and a
    research log
+6. **Visualization** — optionally renders an interactive family tree
+   diagram via [Open Design](https://opendesign.dev)
 
 ## License
 
