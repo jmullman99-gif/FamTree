@@ -1,0 +1,9 @@
+.claude/
+.superpowers/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+.venv/
+.pytest_cache/
+uv.lock

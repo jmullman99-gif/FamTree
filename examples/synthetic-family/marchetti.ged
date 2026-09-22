@@ -1,0 +1,134 @@
+0 HEAD
+1 SOUR GenealogyMCP
+2 VERS 1.0
+2 NAME Genealogy MCP Example
+1 DEST ANY
+1 DATE 22 SEP 2026
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Giovanni /Marchetti/
+1 SEX M
+1 BIRT
+2 DATE ABT 1870
+2 PLAC Lucca, Toscana, Italia
+1 DEAT
+2 DATE 3 FEB 1942
+2 PLAC Brooklyn, Kings, New York, USA
+1 IMMI
+2 DATE 1895
+2 PLAC New York, New York, USA
+1 OCCU Stonemason
+1 FAMS @F1@
+0 @I2@ INDI
+1 NAME Maria /Rossi/
+1 SEX F
+1 BIRT
+2 DATE 12 MAR 1874
+2 PLAC Lucca, Toscana, Italia
+1 DEAT
+2 DATE 8 MAR 1908
+2 PLAC Brooklyn, Kings, New York, USA
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Antonio /Marchetti/
+1 SEX M
+1 BIRT
+2 DATE 15 JUN 1897
+2 PLAC Brooklyn, Kings, New York, USA
+1 DEAT
+2 DATE 22 NOV 1968
+2 PLAC Brooklyn, Kings, New York, USA
+1 OCCU Carpenter
+1 FAMC @F1@
+1 FAMS @F2@
+0 @I4@ INDI
+1 NAME Rosa /Marchetti/
+1 SEX F
+1 BIRT
+2 DATE 3 APR 1900
+2 PLAC Brooklyn, Kings, New York, USA
+1 DEAT
+2 DATE 17 SEP 1985
+2 PLAC Queens, New York, USA
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Margaret /O'Brien/
+1 SEX F
+1 BIRT
+2 DATE 28 DEC 1901
+2 PLAC County Cork, Ireland
+1 DEAT
+2 DATE 5 JUL 1979
+2 PLAC Brooklyn, Kings, New York, USA
+1 IMMI
+2 DATE 1919
+2 PLAC New York, New York, USA
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Giovanni Carlo /Marchetti/
+1 SEX M
+1 BIRT
+2 DATE 10 OCT 1926
+2 PLAC Brooklyn, Kings, New York, USA
+1 DEAT
+2 DATE 14 MAR 2003
+2 PLAC Brooklyn, Kings, New York, USA
+1 OCCU Electrician
+1 FAMC @F2@
+1 FAMS @F3@
+0 @I7@ INDI
+1 NAME Mary Catherine /Marchetti/
+1 SEX F
+1 BIRT
+2 DATE 7 FEB 1929
+2 PLAC Brooklyn, Kings, New York, USA
+1 FAMC @F2@
+0 @I8@ INDI
+1 NAME Dorothy /Kowalski/
+1 SEX F
+1 BIRT
+2 DATE 19 AUG 1930
+2 PLAC Greenpoint, Brooklyn, New York, USA
+1 FAMS @F3@
+0 @I9@ INDI
+1 NAME Robert John /Marchetti/
+1 SEX M
+1 BIRT
+2 DATE 3 MAY 1955
+2 PLAC Brooklyn, Kings, New York, USA
+1 FAMC @F3@
+0 @I10@ INDI
+1 NAME Anna Marie /Marchetti/
+1 SEX F
+1 BIRT
+2 DATE 21 DEC 1957
+2 PLAC Brooklyn, Kings, New York, USA
+1 FAMC @F3@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 CHIL @I4@
+1 MARR
+2 DATE 18 APR 1896
+2 PLAC Brooklyn, Kings, New York, USA
+0 @F2@ FAM
+1 HUSB @I3@
+1 WIFE @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+1 MARR
+2 DATE 5 JUN 1925
+2 PLAC Brooklyn, Kings, New York, USA
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 MARR
+2 DATE 12 SEP 1953
+2 PLAC Brooklyn, Kings, New York, USA
+0 TRLR
